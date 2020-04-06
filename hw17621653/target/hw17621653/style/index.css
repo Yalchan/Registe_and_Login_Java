@@ -1,0 +1,37 @@
+h1{
+    color: royalblue;
+    text-align: center;
+}
+p{
+    color:royalblue ;
+    font-size: 50px;
+    text-align: center;
+}
+input[type=submit]{
+    background-color: #012e5e;
+    color: #ffffff;
+    width: 30%;
+    padding: 14px 20px;
+    margin: 8px 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 35%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    cursor: pointer;
+
+}
+body{
+    background-color: #cccccc;
+}
+.yellow-box{
+    border-radius: 5px;
+    background-color: #FFCA33;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}

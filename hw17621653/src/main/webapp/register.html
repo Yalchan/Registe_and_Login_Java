@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+<body>
+
+
+<h1>Creating Profile</h1>
+<h1>Please fill in all!</h1>
+<div class="yellow-box">
+
+    <form action="registration" method="POST">
+        <div class="input-box">
+            <div class="field-name">
+                <label for="first">First Name:</label>
+            </div>
+            <input id="first" type="text" name="first_name">
+        </div>
+        <div class="input-box">
+            <div class="field-name">
+                <label>Second Name:</label>
+            </div>
+            <input id="second" type="text" name="second_name">
+        </div>
+        <div class="input-box">
+            <div class="field-name">
+                <label for="last">Last Name:</label>
+            </div>
+            <input id="last" type="text" name="last_name"/>
+        </div>
+
+        <div class="input-box">
+            <div class="field-name">
+                <label for="last">Your Gender:</label>
+            </div>
+            <select id="gender" name="gender">
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+            </select>
+        </div>
+
+        <div class="input-box">
+            <div class="field-name">
+                <label for="email">Email:</label>
+            </div>
+            <input id="email" type="text" name="email"/>
+        </div>
+        <div class="input-box">
+            <div class="field-name">
+                <label for="password">Password:</label>
+            </div>
+            <input id="password" type="password" name="password"/>
+        </div>
+        <div class="input-box">
+            <div class="field-name">
+                <label>Job:</label>
+            </div>
+            <div class="field-name">
+                <label>Company name:</label>
+            </div>
+            <input id="company-name" type="text" name="company_name">
+        </div>
+
+        <div class="input-box">
+            <div class="field-name">
+                <label>Company type:</label>
+            </div>
+            <input id="company-type" type="text" name="company_type">
+        </div>
+
+        <div class="input-box">
+            <div class="field-name">
+                <label>Company address:</label>
+            </div>
+            <div class="field-name">
+                <label>City:</label>
+            </div>
+            <input id="company-city" type="text" name="company_city">
+        </div>
+
+
+        <div class="input-box">
+            <div class="field-name">
+                <label>Street:</label>
+            </div>
+            <input id="company-street" type="text" name="company_street">
+        </div>
+
+        <div class="input-box">
+            <div class="field-name">
+                <label>Your position:</label>
+            </div>
+            <input id="position" type="text" name="position">
+			</div>
+
+            <div class="input-box">
+                <div class="field-name">
+                    <label>Your current location:</label>
+                </div>
+            <div class="field-name">
+                <label>City:</label>
+            </div>
+            <input id="city" type="text" name="city">
+        </div>
+        <div class="input-box">
+            <div class="field-name">
+                <label>Street:</label>
+            </div>
+            <input id="street" type="text" name="street">
+        </div>
+        <div class="input-box">
+            <div class="field-name">
+                <label>Phone number:</label>
+            </div>
+            <input id="phone" type="text" name="phone_number">
+        </div>
+        <div class="input-box">
+            <div class="field-name">
+                <label>About you:</label>
+            </div>
+            <input id="description" style="width: 100%;height:200px;" type="text" name="description">
+        </div>
+        <div class="input-box">
+        <div class="field-name">
+        <label>Please select your skills:</label>
+        </div>
+        </div>
+
+        <div class="input-box">
+            <div class="skill-types">
+                <span class="skill-social"> <label>Social</label></span>
+                <span class="skill-prof"><label>Professional</label></span>
+            </div>
+        </div>
+        <div id="block">
+        <span id="social-container" class="skill-social">
+            <label >
+                <input type="checkbox" id="social" name="social" value="Speaking" checked >Speaking</label>
+        </span>
+        <span id="prof-container" class="skill-prof">
+            <label>
+                <input type="checkbox" id="professional" name="professional" value="HTML" checked >HTML</label>
+           
+        </span>
+        </div>
+        <div class="input-box">
+        <div class="field-name">
+        <label>Add more skills</label>
+        </div>
+        </div>
+        <input type="text" id="text-field" >
+<div>
+
+        <input type="button" value="add-social" id="add-social" onclick="createSocialCheckBox()">
+
+        <input type="button" value="add-professional" id="add-prof" onclick="createProfessionalCheckBox()">
+
+</div>
+        <input type="submit" value="Submit"/>
+        <script src="js/dynamic_checkbox.js">
+        </script>
+    </form>
+</div>
+</body>
+</html>

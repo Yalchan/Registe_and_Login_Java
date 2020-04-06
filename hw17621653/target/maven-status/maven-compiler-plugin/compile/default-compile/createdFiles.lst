@@ -1,0 +1,11 @@
+repository\UserRepository.class
+servlets\LoginServlet.class
+model\Company.class
+model\enums\SkillType.class
+model\UserSkill.class
+model\beans\User.class
+model\Job.class
+servlets\UserServlet.class
+repository\UserRepositoryImpl.class
+servlets\RegistrationServlet.class
+model\Address.class
